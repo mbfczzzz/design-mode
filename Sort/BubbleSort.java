@@ -13,7 +13,7 @@ public class BubbleSort {
             }
 
 
-    private static int[]  bubbleSort(int[] array){
+            private static int[]  bubbleSort(int[] array){
                   if(array.length<=1){
                       return array;
                   }
@@ -49,8 +49,8 @@ public class BubbleSort {
                 return  array;
             }
 
-          public static void main(String args[]){
+            public static void main(String args[]){
                     int[] array =  bubbleSort2(new int[]{1,4,52,4,2});
                     System.out.println(Arrays.toString(array));
-          }
+            }
 }
