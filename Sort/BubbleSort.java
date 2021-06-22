@@ -2,6 +2,10 @@ import java.util.Arrays;
 
 /**
  * 2021/6/22
+ * 冒泡排序  j=i+1
+ * 时间复杂度： o(n²)
+ * 空间复杂度： o(1)
+ * 稳定性： 稳定的
  */
 public class BubbleSort {
 
