@@ -24,8 +24,8 @@ public class QuickSort {
         sort(array,pviot+1,end);
     }
     //分区函数
+    //单指针循环法
     private static int  partion(int[] array,int start,int end){
-        System.out.println(Arrays.toString(array));
             int pviot = end;
             int  j = start;
             for (int i=start;i<=end;i++){
@@ -43,8 +43,6 @@ public class QuickSort {
             int tmp = array[j];
             array[j] = array[end];
             array[end] = tmp;
-        System.out.println(Arrays.toString(array));
-        System.out.println(j);
             return  j;
     }
 
